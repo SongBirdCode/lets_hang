@@ -130,12 +130,14 @@
     "webidl-conversions": "^7.0.0",
     "whatwg-mimetype": "^3.0.0",
     "whatwg-url": "^13.0.0"
+  
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
     "watch": "nodemon server.js",
     "seed": "node seeds/seed.js"
+    "render-build":"npm install && npm run build"
   },
   "keywords": [],
   "author": "",
